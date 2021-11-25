@@ -1,0 +1,20 @@
+POST		http://localhost:8080/versement/executerVersements
+
+{
+    "nom_prenom_emetteur":"HABIBOU Hamza",
+    "nrCompteBeneficiaire":"010000B025001000",
+    "motifVersement":"Pour un motif de Versement",
+    "montantVersement":3000
+}
+
+
+
+
+POST		http://localhost:8080/virements/executerVirements
+
+{
+    "nrCompteEmetteur":"010000A000001000",
+    "nrCompteBeneficiaire":"010000B025001000",
+    "motifVirement":"Pour un motif de Virement",
+    "montantVirement":3000
+}
